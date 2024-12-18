@@ -1,0 +1,83 @@
+/* Center class for centering text and inline elements */
+.center {
+    text-align: center;
+}
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+}
+
+/* Style for images */
+img {
+    border: none; 
+}
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Responsive YouTube Video Container */
+.video-container {
+    position: relative;
+    width: 80%; 
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 35%;
+    height: 0;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Adjust spacing for paragraphs after the video */
+.video-container + p {
+    margin-top: 0; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #142d4c;
+    color: #ececec;
+}
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+ul {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+/* Style for links */
+a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff0000; /* Red */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

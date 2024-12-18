@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/snake.ico" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Snake</h1>
+        <p>Use the arrow keys to move the snake.</p>
+        <div id="score">Score: 0</div>
+        <div id="highScore">High Score: 0</div>
+    </header>
+    
+    <main>
+        <div id="gameBoard"></div>
+    </main>
+    
+    <!-- Game Over Modal -->
+    <div id="gameOverMessage" class="hidden">
+        <p>You died :(</p> <!-- This is dynamically updated -->
+        <p>Your final score is <span id="finalScoreInline">0</span>.</p>
+        <button id="restartInlineButton">Play Again</button>
+    </div>
+    <div id="backToResume">
+        <a href="../index.html" class="btn">Back to Resume</a>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

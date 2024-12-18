@@ -1,0 +1,36 @@
+.smartframe-image {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 16/9;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+.link-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}

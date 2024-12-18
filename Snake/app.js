@@ -167,7 +167,6 @@ function handleKeyPress(event) {
 // Array of alternate game over messages
 const gameOverMessages = [
     "You died :(",
-    "Your mom scored higher than that last night",
     "Booooooo",
     "Ya done goofed",
     "You really screwed that one up",
